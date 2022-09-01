@@ -23,13 +23,10 @@ public class Myntra2Test extends Base {
 		
 		
 		util.mouseAction(driver, hp.getProfileIcon());
-		Thread.sleep(3000);
 		hp.getSignbtn().click();
-		Thread.sleep(3000);
 		driver.navigate().refresh();
 		Thread.sleep(3000);
 		lp.getMobileNumTf().sendKeys("8660189198");
-		Thread.sleep(3000);
 		lp.getContinuebtn().click();
 		Reporter.log("Enter the OTP", true);
 		Thread.sleep(30000);

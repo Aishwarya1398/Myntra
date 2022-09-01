@@ -4,9 +4,9 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
 
-import com.genericlib.Base;
 
-public class loginPage extends Base{
+
+public class loginPage  {
 
 	//elements
 	

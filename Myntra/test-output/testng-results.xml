@@ -1,29 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
     <line>
       <![CDATA[Browser opened]]>
     </line>
     <line>
-      <![CDATA[Browser opened]]>
+      <![CDATA[Enter the OTP]]>
     </line>
     <line>
-      <![CDATA[Prod success]]>
-    </line>
-    <line>
-      <![CDATA[TestCase 3 is success]]>
-    </line>
-    <line>
-      <![CDATA[About to quit]]>
-    </line>
-    <line>
-      <![CDATA[Successfully quit]]>
-    </line>
-    <line>
-      <![CDATA[placeorder button success]]>
-    </line>
-    <line>
-      <![CDATA[TestCase 1 is success]]>
+      <![CDATA[TestCase 2 is success]]>
     </line>
     <line>
       <![CDATA[About to quit]]>
@@ -32,26 +17,29 @@
       <![CDATA[Successfully quit]]>
     </line>
   </reporter-output>
-  <suite started-at="2022-08-24T18:55:14 IST" name="Suite" finished-at="2022-08-24T18:56:21 IST" duration-ms="67045">
+  <suite name="Default suite" duration-ms="102206" started-at="2022-09-01T16:20:46 IST" finished-at="2022-09-01T16:22:28 IST">
     <groups>
     </groups>
-    <test started-at="2022-08-24T18:55:14 IST" name="Test" finished-at="2022-08-24T18:56:21 IST" duration-ms="67045">
-      <class name="MyntraTestCases.Myntra3Test">
-        <test-method is-config="true" signature="configBC()[pri:0, instance:MyntraTestCases.Myntra3Test@7133da86]" started-at="2022-08-24T18:55:14 IST" name="configBC" finished-at="2022-08-24T18:55:23 IST" duration-ms="9064" status="PASS">
+    <test name="Default test" duration-ms="102206" started-at="2022-09-01T16:20:46 IST" finished-at="2022-09-01T16:22:28 IST">
+      <class name="MyntraTestCases.Myntra2Test">
+        <test-method status="PASS" signature="configBC()[pri:0, instance:MyntraTestCases.Myntra2Test@954b04f]" name="configBC" is-config="true" duration-ms="4380" started-at="2022-09-01T16:20:46 IST" finished-at="2022-09-01T16:20:50 IST">
           <reporter-output>
             <line>
               <![CDATA[Browser opened]]>
             </line>
           </reporter-output>
         </test-method> <!-- configBC -->
-        <test-method signature="Myntra3TC()[pri:0, instance:MyntraTestCases.Myntra3Test@7133da86]" started-at="2022-08-24T18:55:23 IST" name="Myntra3TC" finished-at="2022-08-24T18:55:58 IST" duration-ms="34882" status="PASS">
+        <test-method status="PASS" signature="Myntra2TC()[pri:0, instance:MyntraTestCases.Myntra2Test@954b04f]" name="Myntra2TC" duration-ms="95002" started-at="2022-09-01T16:20:50 IST" finished-at="2022-09-01T16:22:25 IST">
           <reporter-output>
             <line>
-              <![CDATA[TestCase 3 is success]]>
+              <![CDATA[Enter the OTP]]>
+            </line>
+            <line>
+              <![CDATA[TestCase 2 is success]]>
             </line>
           </reporter-output>
-        </test-method> <!-- Myntra3TC -->
-        <test-method is-config="true" signature="configAc()[pri:0, instance:MyntraTestCases.Myntra3Test@7133da86]" started-at="2022-08-24T18:55:58 IST" name="configAc" finished-at="2022-08-24T18:56:02 IST" duration-ms="4419" status="PASS">
+        </test-method> <!-- Myntra2TC -->
+        <test-method status="PASS" signature="configAc()[pri:0, instance:MyntraTestCases.Myntra2Test@954b04f]" name="configAc" is-config="true" duration-ms="2784" started-at="2022-09-01T16:22:26 IST" finished-at="2022-09-01T16:22:28 IST">
           <reporter-output>
             <line>
               <![CDATA[About to quit]]>
@@ -61,39 +49,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- configAc -->
-      </class> <!-- MyntraTestCases.Myntra3Test -->
-      <class name="MyntraTestCases.Myntra1Test">
-        <test-method is-config="true" signature="configBC()[pri:0, instance:MyntraTestCases.Myntra1Test@2b91004a]" started-at="2022-08-24T18:55:14 IST" name="configBC" finished-at="2022-08-24T18:55:22 IST" duration-ms="8260" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Browser opened]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- configBC -->
-        <test-method signature="ScenarioTestCases()[pri:0, instance:MyntraTestCases.Myntra1Test@2b91004a]" started-at="2022-08-24T18:55:22 IST" name="ScenarioTestCases" finished-at="2022-08-24T18:56:16 IST" duration-ms="54116" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Prod success]]>
-            </line>
-            <line>
-              <![CDATA[placeorder button success]]>
-            </line>
-            <line>
-              <![CDATA[TestCase 1 is success]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- ScenarioTestCases -->
-        <test-method is-config="true" signature="configAc()[pri:0, instance:MyntraTestCases.Myntra1Test@2b91004a]" started-at="2022-08-24T18:56:16 IST" name="configAc" finished-at="2022-08-24T18:56:21 IST" duration-ms="4596" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[About to quit]]>
-            </line>
-            <line>
-              <![CDATA[Successfully quit]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- configAc -->
-      </class> <!-- MyntraTestCases.Myntra1Test -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+      </class> <!-- MyntraTestCases.Myntra2Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

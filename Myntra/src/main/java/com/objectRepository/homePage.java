@@ -5,7 +5,7 @@ import org.openqa.selenium.support.FindBy;
 
 import com.genericlib.Base;
 
-public class homePage extends Base{
+public class homePage {
 
 	//Elements
 		@FindBy(xpath= "//a[@class='desktop-main' and @data-group='women']")

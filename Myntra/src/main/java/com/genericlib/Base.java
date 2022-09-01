@@ -28,7 +28,7 @@ public class Base {
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
 		driver.get("https://www.myntra.com/");
-		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
 		Reporter.log("Browser opened", true);
 	}

@@ -13,7 +13,7 @@ public class plpPage {
 	@FindBy(xpath = "//label[@class='sort-label ']//*[@value='popularity']")
 	private WebElement popularityDropdown;
 
-	@FindBy(xpath = "//img[@class='img-responsive' and @title='Saree Mall Floral Saree']")
+	@FindBy(xpath = "//img[@alt='Mitera Purple Woven Design Kanjeevaram Silk Saree' and @title='Mitera Purple Woven Design Kanjeevaram Silk Saree']")
 	private WebElement prod1;
 
 	@FindBy(xpath = "//*[.='ADD TO BAG']")
